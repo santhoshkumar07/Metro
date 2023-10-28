@@ -1,0 +1,187 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>METRO</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=0" />
+     
+    <meta name="author" content="Metro Courier & logistics" />
+    <meta http-equiv="Content-Language" content="EN" />
+    <meta property="og:title" content="Metro/" />
+    <meta property="og:type" content="website" />
+    <link rel="icon" href="assets/images/logo.jpg" sizes="20x20" type="image/png" />
+    <link rel="stylesheet" href="assets/css/animate.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/magnific-popup.css" />
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="assets/css/themify-icons.css" />
+    <link rel="stylesheet" href="assets/css/flaticon.css" />
+    <link rel="stylesheet" href="assets/css/slick.css" />
+    <link rel="stylesheet" href="assets/css/animated-slider.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <asp:ScriptManager ID="MasterScript" runat="server"></asp:ScriptManager>
+
+        <div class="preloader" id="preloader">
+            <div class="preloader-inner">
+                <div class="spinner">
+                    <div class="dot1"></div>
+                    <div class="dot2"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="body-overlay" id="body-overlay"></div>
+
+        
+
+
+        
+
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+
+        <footer class="footer-area footer-area-2 mg-top-105">
+            <div class="site-footer">
+                <div class="footer-dots"></div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="widget">
+                                <h3>About <span class="text-primary">.</span> </h3>
+                                <p>Meto Courier and Logistics, We pride ourselves on our capacity to give shippers, both substantial and little, with an arrangement of administrations intended to deal with their complex and regularly changing supply chains.</p>
+                            </div>
+                            <div class="widget">
+                                <h3>Connect</h3>
+                                <ul class="list-unstyled social">
+                                    <li><a href="#"><span class="icon-instagram"></span></a></li>
+                                    <li><a href="#"><span class="icon-twitter"></span></a></li>
+                                    <li><a href="#"><span class="icon-facebook"></span></a></li>
+                                    <li><a href="#"><span class="icon-linkedin"></span></a></li>
+                                    <li><a href="#"><span class="icon-pinterest"></span></a></li>
+                                    <li><a href="#"><span class="icon-dribbble"></span></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-2">
+                            <div class="widget">
+                                <h3>Services</h3>
+                                <ul class="list-unstyled float-left links">
+                                    <li><a href="#">Air</a></li>
+                                    <li><a href="#">Train</a></li>
+                                    <li><a href="#">Surface</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="widget">
+                                <h3>Contact</h3>
+                                <address>3, Sathya Street, Municipal Colony, (Opp) SRM Sweets, Erode 638004.</address>
+                                <ul class="list-unstyled links mb-4">
+                                    <li><a href="tel://8883055119">+91 8883055119</a></li>
+                                    <li><a href="tel://7305055119">+91 7305055119</a></li>
+                                    <li><a href="#">erdmetro4862@gmail.com</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="widget">
+                                <h3>Contact</h3>
+                                <address>Shop No 5, JMN Tower Sakthi Thirumana Mandapam Road Perundurai - 638052.</address>
+                                <ul class="list-unstyled links mb-4">
+                                    <li><a href="tel://8883055119">+91 9751415500</a></li>
+                                    <li><a href="tel://7305055119">+91 9487089881</a></li>
+                                    <li><a href="#">metoperundurai@gmail.com</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-5">
+                        <div class="col-12 text-center">
+                            <p>
+                                Copyright &copy;<script data-cfasync="false" src="../assets/js/email-decode.min.js"></script><script>document.write(new Date().getFullYear());</script>
+                                All rights reserved. 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <script src="../assets/js/jquery-3.4.1.min.js"></script>
+            <script src="../assets/js/jquery-migrate-3.0.1.min.js"></script>
+            <script src="../assets/js/popper.min.js"></script>
+            <script src="../assets/js/bootstrap.min.js"></script>
+            <script src="../assets/js/jquery.easing.1.3.js"></script>
+            <script src="../assets/js/jquery.stellar.min.js"></script>
+            <script src="../assets/js/jquery.waypoints.min.js"></script>
+            <script src="../assets/js/isotope.pkgd.min.js"></script>
+            <script src="../assets/js/jquery.fancybox.min.js"></script>
+            <script src="../assets/js/aos.js"></script>
+            <script src="../assets/js/imagesloaded.pkgd.js"></script>
+            <script src="../assets/js/custom.js"></script>
+
+            <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+            <script>
+                window.dataLayer = window.dataLayer || [];
+                function gtag() { dataLayer.push(arguments); }
+                gtag('js', new Date());
+
+                gtag('config', 'UA-23581568-13');
+    </script>
+            <script defer src="https://static.cloudflareinsights.com/beacon.min.js/v84a3a4012de94ce1a686ba8c167c359c1696973893317" integrity="sha512-euoFGowhlaLqXsPWQ48qSkBSCFs3DPRyiwVu3FjR96cMPx+Fr+gpWRhIafcHwqwCqWS42RZhIudOvEI+Ckf6MA==" data-cf-beacon='{"rayId":"81a6d5d04eae8519","b":1,"version":"2023.10.0","token":"cd0b4b3a733644fc843ef0b185f98241"}' crossorigin="anonymous"></script>
+
+            
+        </footer>
+
+        <div class="back-to-top">
+            <span class="back-top"><i class="fa fa-angle-up"></i></span>
+        </div>
+
+        <script src="assets/js/jquery-2.2.4.min.js"></script>
+        <script src="assets/js/popper.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/jquery.magnific-popup.js"></script>
+        <script src="assets/js/wow.min.js"></script>
+        <script src="assets/js/owl.carousel.min.js"></script>
+        <script src="assets/js/slick.js"></script>
+        <script src="assets/js/jquery.cssslider.min.js"></script>
+        <script src="assets/js/waypoints.min.js"></script>
+        <script src="assets/js/jquery.counterup.min.js"></script>
+        <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+        <script src="assets/js/isotope.pkgd.min.js"></script>
+        <script src="assets/js/jquery.nice-select.min.js"></script>
+        <script src="assets/js/worldmap-libs.js"></script>
+        <script src="assets/js/worldmap-topojson.js"></script>
+        <script src="assets/js/main.js"></script>
+
+        <script>
+            $(document).ready(function () {
+                $(".read-1").click(function () {
+                    $(".wrap-1").toggleClass("maxim");
+                });
+                $(".read-2").click(function () {
+                    $(".wrap-2").toggleClass("maxim");
+                });
+                $(".read-11").click(function () {
+                    $(".wrap-11").toggleClass("maxim");
+                });
+                $(".read-12").click(function () {
+                    $(".wrap-12").toggleClass("maxim");
+                });
+            });
+        </script>
+    </form>
+</body>
+</html>
+
